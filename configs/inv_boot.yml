@@ -1,0 +1,19 @@
+MODEL:
+  encoder_type: convnext_small
+  generator_path: models/chexgan_generator.pt
+
+
+TRAINER:
+  learning_rate: 0.00005
+  weight_decay: 0
+  steps: 1000000
+  batch_size: 16
+  checkpoint_interval: 1000
+  checkpoint_dir: results_convnext
+  validation_interval: 1000
+  verbose_interval: 10
+  fp_16: True
+
+WB:
+  project: chex-inv
+  entity: yourname

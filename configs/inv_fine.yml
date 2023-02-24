@@ -1,0 +1,21 @@
+DATA:
+  data_path: data/chex-ray14
+
+MODEL:
+  encoder_type: convnext_small
+  encoder_checkpoint: results_convnext/v9/model.pt
+  generator_path: models/chexgan_generator.pt
+
+
+TRAINER:
+  learning_rate: 0.00001
+  weight_decay: 0
+  epochs: 15
+  batch_size: 10
+  num_workers: 16
+  checkpoint_dir: results_convnext_fine
+  fp_16: True
+
+WB:
+  project: chex-inv-fine
+  entity: yourname

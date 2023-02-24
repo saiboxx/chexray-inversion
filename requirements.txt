@@ -1,0 +1,13 @@
+
+-e .
+albumentations
+kornia
+matplotlib
+pandas
+pyyaml
+torch
+torchmetrics
+torchvision
+tqdm
+umap-learn
+wandb
