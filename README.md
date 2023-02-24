@@ -24,9 +24,9 @@ at the *First MICCAI Workshop on Medical Applications with Disentanglements 2022
 
 An important building block of our pipeline is the progressive growing generator of
 [Segal et al.](https://link.springer.com/article/10.1007/s42979-021-00720-7).
-However, they seem to have removed their model weights from 
+However, it seems that the weights of the generator were removed from 
 their [repository](https://github.com/BradSegal/CXR_PGGAN) and 
-we are not in the position to release a copy of the generator.
+we are not in the position to release it again.
 
 The data used for training is the NIH Chest X-ray 14 dataset, which is available
 [here](https://nihcc.app.box.com/v/ChestXray-NIHCC). Our default path for the dataset
