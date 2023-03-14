@@ -83,8 +83,8 @@ how to use the model objects.
 
 ## Models
 
-- Encoder with *Stage 1* bootstrapped training: [Click!](https://syncandshare.lrz.de/getlink/fi9kTBZBjZqq8LmfCempB6/convnext_boot.pt).
-- Encoder with *Stage 2* dataset finetuning: [Click!](https://syncandshare.lrz.de/getlink/fi4fHTqZgzGewbfn91bmkm/convnext_fine.pt).
+- Encoder with *Stage 1* bootstrapped training: [Click!](https://syncandshare.lrz.de/getlink/fi9kTBZBjZqq8LmfCempB6/convnext_boot.pt)
+- Encoder with *Stage 2* dataset finetuning: [Click!](https://syncandshare.lrz.de/getlink/fi4fHTqZgzGewbfn91bmkm/convnext_fine.pt)
 
 Both models use `convnext_small` as backbone.
 Please see `notebooks/nb_invert_sample.ipynb` for an example.
